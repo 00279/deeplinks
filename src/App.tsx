@@ -8,10 +8,12 @@ function App() {
     }, 2000);
   }, []);
   const onClick = () => window.location.assign('telegram://test');
+  const onClickWindowOpen = () => window.open('telegram://test');
 
   return (
     <>
-      <button onClick={onClick}>click</button>
+      <button onClick={onClick}>assign</button>
+      <button onClick={onClickWindowOpen}>window open</button>
     </>
   );
 }
