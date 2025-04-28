@@ -14,7 +14,7 @@ function App() {
     <>
       <button onClick={onClick}>assign</button>
       <button onClick={onClickWindowOpen}>window open</button>
-      <a href="https://localhost" target="_blank" />
+      <a href="https://localhost" target="_blank">link</a>
     </>
   );
 }
